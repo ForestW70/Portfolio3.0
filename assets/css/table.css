@@ -1,0 +1,127 @@
+.resume {
+    margin:30px;
+    font-size: 2.5vw;
+}
+
+th {
+    font-weight: bold;
+
+}
+
+td {
+    margin:0;
+    padding:0;
+    vertical-align: top;
+}
+
+tbody {
+    font-size: 1rem;
+}
+
+/* 1 */
+tbody > tr:nth-child(1) {
+    font-style: italic;
+}
+
+/* 2 */
+tbody > tr:nth-child(2) > td {
+    padding-bottom: 20px;
+    
+}
+
+/* 3 */
+tbody > tr:nth-child(3) {
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+}
+
+/* 4 */
+tbody > tr:nth-child(4) {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+/* 5 */
+
+/* 6 */
+tbody > tr:nth-child(6) > td,
+tbody > tr:nth-child(8) > td,
+tbody > tr:nth-child(10) > td {
+    border: 7px double hotpink;
+    border-left: none;
+    border-top: none;
+    padding-bottom: 50px;
+}
+
+
+/* job names infos */
+tbody > tr:nth-child(5) > th,
+tbody > tr:nth-child(7) > th,
+tbody > tr:nth-child(9) > th {
+    font-size: 2rem;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+tbody > tr:nth-child(5) p,
+tbody > tr:nth-child(7) p,
+tbody > tr:nth-child(9) p {
+    /* font-size: 2rem;
+    font-weight: bold; */
+    font-family: serif;
+    transform: skew(10deg, -3deg);
+}
+
+/* job duties */
+tbody > tr:nth-child(6) > td,
+tbody > tr:nth-child(8) > td,
+tbody > tr:nth-child(10) > td {
+    width:50%;
+}
+
+tbody > tr:nth-child(6) p,
+tbody > tr:nth-child(8) p,
+tbody > tr:nth-child(10) p {
+    font-style: italic;
+    width: 90%;
+}
+
+.sec-divider {
+    border-bottom: 1px  solid;
+}
+
+.splitter {
+    padding-right: 50px;
+}
+
+.dbl-tbl {
+    padding-right: 50px;
+    font-size: 2rem;
+}
+
+td > table > tr {
+    border-bottom: none;
+}
+
+.list-head {
+    font-size: 2rem;
+}
+
+.listical > p { 
+    line-height: 1.2;
+    margin: 0;
+}
+
+.listical > p::before { 
+    content: '•';
+}
+
+.sec-head {
+    font-size: 2rem;
+    color: grey;
+    font-family: serif;
+}
+
+.nope {
+    border-bottom: none;
+}

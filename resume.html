@@ -17,6 +17,7 @@
     </link>
 
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/table.css">
     <link rel="icon" href='./assets/images/favicon.jpg'>
 
     <title>Resume</title>
@@ -29,7 +30,7 @@
 
                 <span class="hello-i-am">Forest Wilson</span>
             </div>
-            
+
             <nav class="menu-items">
                 <a href="#about-me" class="nav-item-1">About</a>
                 <a href="#projects" class="nav-item-2">Projects</a>
@@ -40,43 +41,245 @@
     </header>
 
     <section>
-        <article class="education">
-            <div>
-                <h2>2U Web Development Bootcamp, George Washington University</h2>
-                <p>Washington, DC. 2021</p>
-                <span>Full stack web developer certificate</span>
-            </div>
-            <div>
-                <h2>LeBow College of Business, Drexel University</h2>
-                <p>Philadelphia, PA. 2014 - 2018</p>
-                <span>Bachelor of Science in Marketing & Business administration</span>
-            </div>
-        </article>
+        <h1>Resume</h1>
 
-        <article class="courses">
+        <table class="resume">
+            <thead>
+                <tr>
+                    <td class="sec-head">Education</td>
+                </tr>
+                <tr>
+                    <th>Drexel University</th>
+                    <th>George Washington University</th>
+                    <td></td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <!-- 1 -->
+                <tr>
+                    <td>Philadelphia, PA. 2014 - 2018</td>
+                    <td>Washington, DC. 2021</td>
+                    <td></td>
+                </tr>
+
+                <!-- 2 -->
+                <tr class="sec-divider">
+                    <td class="splitter">Bachelor of Science in Marketing & Business administration</td>
+                    <td>Full stack web developer certificate</td>
+                    <td></td>
+                </tr>
+
+
+
+                <!-- 3 -->
+                <tr class="sec-divider">
+                    <td class="listical">
+                        <span class="list-head">Coursework:</span>
+                        <p>Micro & macro economics</p>
+                        <p>Financial & managerial accounting</p>
+                        <p>Business statistics</p>
+                        <p>Organizational behavior</p>
+                        <p>Interactive marketing </p>
+                        <p>International marketing & finance</p>
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td class="list-head">Technologies:</td>
+                                <td></td>
+                                <td class="list-head">Other dependancies:</td>
+                            </tr>
+                            <tr class="nope">
+                                <td class="listical">
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>JavaScript</p>
+                                    <p>JQuery</p>
+                                    <p>Node.js</p>
+                                    <p>React.js</p>
+                                    <p>Handlebars</p>
+                                    <p>MySql</p>
+                                    <p>MongoDB</p>
+                                    <p>GraphQL</p>
+                                    <p>Insomnia/Postman</p>
+                                    <p>PWA's</p>
+                                    <p>Webpack</p>
+                                    <p>Heroku</p>
+                                </td>
+                                <td class="dbl-tbl">-></td>
+                                <td class="listical">
+                                    <p>Jest</p>
+                                    <p>Express</p>
+                                    <p>Sequelize</p>
+                                    <p>Mongoose</p>
+                                    <p>Eslint</p>
+                                    <p>Bcrypt</p>
+                                    <p>Lighthouse</p>
+                                    <p>Compression.js</p>
+                                    <p>IndexedDB</p>
+                                    <p>Babel-loader</p>
+                                    <p>Concurrently</p>
+                                    <p>Apollo</p>
+                                    <p>Redux</p>
+                                    <p>JWT</p>
+                                    <p>Stripe</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <!-- 4 -->
+                <tr>
+                    <td class="sec-head">Work experience</td>
+                </tr>
+
+                <!-- 5 -->
+                <tr>
+                    <th>America Eats Tavern</th>
+                    <td>
+                        <p>Lead Host</p>
+                        <p>Washington, DC</p>
+                        <p>November 2019 - March 2020</p>
+                    </td>
+                </tr>
+
+                <!-- 6 -->
+                <tr>
+                    <td>
+
+                        <p>
+                            Organized and managed a 104 seat floor plan, optimizing a large pool of reservations while
+                            also accommodating frequent walk-ins.
+                        </p>
+                        <p>
+                            Prioritized tasks such as handling all carry-out orders, actively updating floor schedpe,
+                            and resolving all of our guests' problems and needs.
+                        </p>
+                        <p>
+                            Utilized strong teamwork skills to ensure staff cohesion in the face of strict deadlines.
+                        </p>
+                        <p>
+                            Trained and directed 3 new employees in their day to day tasks and expectations.
+                        </p>
+
+                    </td>
+                </tr>
+
+                <!-- 7 -->
+                <tr>
+                    <th>Discover Goodwill</th>
+                    <td>
+                        <p>Front-end assistant manager</p>
+                        <p>Colorado Springs, CO</p>
+                        <p>March 2018 - January 2019</p>
+                    </td>
+                </tr>
+
+                <!-- 8 -->
+                <tr>
+                    <td>
+
+                        <p>
+                            Disciplined my time to satisfy my position’s requirements, as well as assisting with other
+                            department’s goals and deadlines when they were falling behind.
+                        </p>
+                        <p>
+                            Fulfilled 70+ customer interactions per day, assuring courteous and friendly service to all
+                            guests, even in the face of dissatisfaction. </p>
+                        <p>
+                        <p>
+                            Maintained a clean, organized store and work space. 
+                        </p>
+                            
+
+                    </td>
+                </tr>
+
+                <!-- 9 -->
+                <tr>
+                    <th>Annenberg School for Communication</th>
+                    <td>
+                        <p>IT help desk</p>
+                        <p>Philadelphia, PA</p>
+                        <p>January 2016 - October 2016</p>
+                    </td>
+                </tr>
+
+                <!-- 10 -->
+                <tr>
+                    <td>
+
+                        <p>
+                            Provided upkeep and preservation to the technical functionality of over 100 classrooms and faculty offices, including 5 state-of-the-art, high capacity lecture halls.
+                        </p>
+                        <p>
+                            Organized and allocated office resources to our 3 building locations along with all other schools that I wasn’t directly working for.
+                         </p>
+                        <p>
+                        <p>
+                            Actively obtained solutions to irregular computer and equipment issues. 
+                        </p>
+                            
+
+                    </td>
+                </tr>
+
+                <th>Discover Goodwill</th>
+                <th>University of Pennsylvania</th>
+            </tbody>
+            <caption>thanks for lookin'</caption>
+        </table>
+
+
+
+        <!-- <article class="courses">
             <div>
-                <h3>Web Development courses</h3>
+                <h3>Technologies:</h3>
                 <li>
-                    <ul>HTML</ul>
+                    <p>HTML</ul>
                     <ul>CSS</ul>
                     <ul>JavaScript</ul>
-                    <ul>Handlebars.js</ul>
-                    <ul>React.js</ul>
                     <ul>JQuery</ul>
                     <ul>Node.js</ul>
+                    <ul>React.js</ul>
+                    <ul>Handlebars</ul>
                     <ul>MySql</ul>
                     <ul>MongoDB</ul>
                     <ul>GraphQL</ul>
-                    <ul></ul>
-                    <ul></ul>
+                    <ul>Insomnia/Postman</ul>
+                    <ul>PWA's</ul>
+                    <ul>Webpack</ul>
+                    <ul>Heroku</ul>
                 </li>
             </div>
-        </article>
+            <div>
+                <h3>Other dependancies:</h3>
+                <li>
+                    <ul>Jest</ul>
+                    <ul>Express</ul>
+                    <ul>Sequelize</ul>
+                    <ul>Mongoose</ul>
+                    <ul>Eslint</ul>
+                    <ul>Bcrypt</ul>
+                    <ul>Lighthouse</ul>
+                    <ul>Compression.js</ul>
+                    <ul>IndexedDB</ul>
+                    <ul>Babel-loader</ul>
+                    <ul>Concurrently</ul>
+                    <ul>Apollo</ul>
+                    <ul>Redux</ul>
+                    <ul>JWT</ul>
+                    <ul>Stripe</ul>
+                </li>
+            </div>
+        </article>  -->
     </section>
 
     <footer>
-        
+
         <span>© 1995-2021, Forest Wilson, Inc. or its affiliates</span>
-        
+
     </footer>
 </body>
