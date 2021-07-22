@@ -6,7 +6,7 @@ const projTitle = document.getElementById("projTitle");
 const projLink = document.getElementById("projLink");
 
 // for each function that attaches these three events to all of the project divs.
-projSquares.forEach( (elem) => {
+projSquares.forEach((elem) => {
 
     // hover events
     elem.addEventListener("mouseenter", e => {
