@@ -47,7 +47,7 @@ tbody > tr:nth-child(4) {
 tbody > tr:nth-child(6) > td,
 tbody > tr:nth-child(8) > td,
 tbody > tr:nth-child(10) > td {
-    border: 7px double hotpink;
+    border: 7px double rgb(119, 119, 119);
     border-left: none;
     border-top: none;
     padding-bottom: 50px;
@@ -61,6 +61,13 @@ tbody > tr:nth-child(9) > th {
     font-size: 2rem;
     font-weight: bold;
     vertical-align: top;
+    padding-top: 15px;
+}
+
+tbody > tr:nth-child(5) td,
+tbody > tr:nth-child(7) td,
+tbody > tr:nth-child(9) td {
+    padding-top: 15px;
 }
 
 tbody > tr:nth-child(5) p,
@@ -69,7 +76,7 @@ tbody > tr:nth-child(9) p {
     /* font-size: 2rem;
     font-weight: bold; */
     font-family: serif;
-    transform: skew(10deg, -3deg);
+    line-height: 10px;
 }
 
 /* job duties */
@@ -77,6 +84,7 @@ tbody > tr:nth-child(6) > td,
 tbody > tr:nth-child(8) > td,
 tbody > tr:nth-child(10) > td {
     width:50%;
+    padding-top: 15px;
 }
 
 tbody > tr:nth-child(6) p,
