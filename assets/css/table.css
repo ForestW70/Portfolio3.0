@@ -1,6 +1,16 @@
+.menu-items {
+    position: fixed;
+    width: 100%;
+}
+
+h1 {
+    margin-left: 30px;
+}
+
 .resume {
-    margin:30px;
-    font-size: 2.5vw;
+    margin: 30px;
+    font-size: 35px;
+    width: 85%;
 }
 
 th {
@@ -14,93 +24,127 @@ td {
     vertical-align: top;
 }
 
+thead > tr:nth-child(3) p {
+    font-size: 1rem;
+    line-height: 1px;
+}
+
+thead > tr:nth-child(3) p::before {
+    content: '•';
+}
+
 tbody {
     font-size: 1rem;
 }
 
-/* 1 */
-tbody > tr:nth-child(1) {
-    font-style: italic;
-}
-
-/* 2 */
-tbody > tr:nth-child(2) > td {
-    padding-bottom: 20px;
-    
-}
-
-/* 3 */
-tbody > tr:nth-child(3) {
-    padding-bottom: 20px;
-    border-bottom: 1px solid;
-}
-
-/* 4 */
-tbody > tr:nth-child(4) {
-    font-weight: bold;
-    font-size: 2.5rem;
-}
-
-/* 5 */
-
-/* 6 */
-tbody > tr:nth-child(6) > td,
-tbody > tr:nth-child(8) > td,
-tbody > tr:nth-child(10) > td {
-    border: 7px double rgb(119, 119, 119);
-    border-left: none;
-    border-top: none;
-    padding-bottom: 50px;
-}
-
-
-/* job names infos */
-tbody > tr:nth-child(5) > th,
-tbody > tr:nth-child(7) > th,
-tbody > tr:nth-child(9) > th {
+tbody > tr:nth-child(2) > th {
     font-size: 2rem;
     font-weight: bold;
     vertical-align: top;
     padding-top: 15px;
 }
 
-tbody > tr:nth-child(5) td,
-tbody > tr:nth-child(7) td,
-tbody > tr:nth-child(9) td {
-    padding-top: 15px;
+
+tbody > tr:nth-child(3) {
+    font-style: italic;
 }
 
-tbody > tr:nth-child(5) p,
+
+tbody > tr:nth-child(4) > td {
+    padding-bottom: 20px;
+    
+}
+
+
+tbody > tr:nth-child(5) {
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+}
+
+
+tbody > tr:nth-child(6) {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+
+
+/* job names infos */
+tbody > tr:nth-child(7) > th,
+tbody > tr:nth-child(9) > th,
+tbody > tr:nth-child(11) > th {
+    font-size: 2rem;
+    font-weight: bold;
+    vertical-align: top;
+    padding-top: 15px;
+    text-align: center;
+}
+
+tbody > tr:nth-child(7) td,
+tbody > tr:nth-child(9) td,
+tbody > tr:nth-child(11) td {
+    padding-top: 15px;
+    
+}
+
 tbody > tr:nth-child(7) p,
-tbody > tr:nth-child(9) p {
-    /* font-size: 2rem;
-    font-weight: bold; */
-    font-family: serif;
+tbody > tr:nth-child(9) p,
+tbody > tr:nth-child(11) p {
+    font-family: sans-serif;
     line-height: 10px;
+    font-variant: all-petite-caps;
+    color: #4e4e4e;
+}
+
+tbody > tr:nth-child(7) p::before,
+tbody > tr:nth-child(9) p::before,
+tbody > tr:nth-child(11) p::before {
+    content: '< ';
 }
 
 /* job duties */
-tbody > tr:nth-child(6) > td,
 tbody > tr:nth-child(8) > td,
-tbody > tr:nth-child(10) > td {
+tbody > tr:nth-child(10) > td,
+tbody > tr:nth-child(12) > td {
     width:50%;
     padding-top: 15px;
+    text-align: center;
+    border: 5px dashed rgb(119 119 119);
+    border-left: none;
+    border-bottom: none;
+    padding-bottom: 50px;
 }
 
-tbody > tr:nth-child(6) p,
 tbody > tr:nth-child(8) p,
-tbody > tr:nth-child(10) p {
+tbody > tr:nth-child(10) p,
+tbody > tr:nth-child(12) p {
     font-style: italic;
     width: 90%;
 }
 
+/* proj titles */
+tbody > tr:nth-child(14) h4,
+tbody > tr:nth-child(15) h4,
+tbody > tr:nth-child(16) h4 {
+    font-style: italic;
+    padding-top: 20px;
+}
+
+caption {
+    font-size: .5rem;
+    border-top: 1px solid grey;
+    padding-left: 30px;
+}
+
 .sec-divider {
+    padding-bottom: 20px;
     border-bottom: 1px  solid;
 }
 
-.splitter {
-    padding-right: 50px;
+.sec-divider > td {
+    padding-bottom: 30px;
 }
+
 
 .dbl-tbl {
     padding-right: 50px;
